@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(Imagem-2023-11-16T144713.510.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+header {
+    background-image: linear-gradient(to right, #6d460b,#b4f775 );
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #75b36d3a;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+input, textarea, button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.imagem_agro{
+    display: inline-grid;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #6d460b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media(min-width: 768px) {
+    nav ul li {
+        display: inline-block;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    footer {
+        position: static;
+    }
+}
